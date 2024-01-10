@@ -5,6 +5,7 @@ const hide = keyframes({
   from: {
     opacity: 1,
   },
+
   to: {
     opacity: 0,
   },
@@ -14,6 +15,7 @@ const show = keyframes({
   from: {
     opacity: 0,
   },
+
   to: {
     opacity: 1,
   },
@@ -23,6 +25,7 @@ const slideIn = keyframes({
   from: {
     transform: 'translateX(100px)',
   },
+
   to: {
     transform: 'translateX(0)',
   },
@@ -50,13 +53,6 @@ export const ToastContainer = styled(Toast.Root, {
   cursor: 'pointer',
   transition: 'all 0.3s',
 
-  h2: {
-    color: '$white',
-  },
-  'span, svg': {
-    color: '$gray200',
-  },
-
   '&:hover': {
     filter: 'brightness(0.75)',
   },
@@ -67,6 +63,13 @@ export const ToastContainer = styled(Toast.Root, {
 
   "&[data-state='open']": {
     animation: `${slideIn}  0.3s ease-in, ${show}  0.3s ease-in`,
+  },
+
+  h2: {
+    color: '$white',
+  },
+  'span, svg': {
+    color: '$gray200',
   },
 
   'h2, span': {
