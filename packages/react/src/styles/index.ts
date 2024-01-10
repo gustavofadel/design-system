@@ -1,12 +1,12 @@
 import {
-  colors,
-  fontSizes,
-  fontWeights,
-  fonts,
-  lineHeights,
-  radii,
-  space,
-} from '@ignite-ui/tokens'
+    colors,
+    fontSizes,
+    fontWeights,
+    fonts,
+    lineHeights,
+    radii,
+    space,
+} from '@fadel-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
