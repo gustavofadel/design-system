@@ -1,11 +1,11 @@
 import {
-    colors,
-    fontSizes,
-    fontWeights,
-    fonts,
-    lineHeights,
-    radii,
-    space,
+  colors,
+  fontSizes,
+  fontWeights,
+  fonts,
+  lineHeights,
+  radii,
+  space,
 } from '@fadel-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
